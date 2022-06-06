@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-fields{
+    margin: 50px auto;
+    max-width: 500px;
+    
+}
+
+.input-fields input,textarea{
+    width: 100%;
+    height: 50px;;
+    margin: 2px;
+}
+
+input:focus,textarea:focus {
+    outline: none;
+    border:2px solid rgb(68, 218, 255);
+
+}
+
+.hero{
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 10px;
+    color:white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10px; */
+    background-color:rgb(78, 124, 133);
+    
+}
+.main div{
+    padding: 30px;
+    flex: 1;
+}
+.Part1{
+    background-color: white;
+    color: black;
+}
+.main h2{
+    width: max-content;
+}
+.Part2 h2{
+    color:white;
+}
+.btn{
+    text-align: center;
+    margin: 30px;
+}
+button{
+    width: 200px;
+    background-color: rgb(78, 124, 133);
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}

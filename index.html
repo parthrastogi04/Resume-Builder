@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="input-fields">
+          <h1 style="text-align: center;">Resume Generator</h1>
+
+          <h3>Name</h3>
+          <input type="text" name="name" placeholder="Name" />
+          <h3>Title</h3>
+          <input type="text" name="title" placeholder="Title (eg:- Web Developer)" />
+
+          <h3>PROFESSIONAL SUMMARY </h3>
+          
+          <textarea name="prof_sum" placeholder="Professional Summary">
+          </textarea>
+          
+          <h3>WORK HISTORY</h3>
+            
+            <input type="date" id="start-date" name="start-date" required>
+            <input type="date" id="end-date" name="end-date" required>
+    
+
+          <textarea name="work_hist" placeholder="Work History">
+          </textarea>
+
+          <h3>SKILLS</h3>
+          <textarea name="skills" placeholder="Skills" >
+          </textarea>
+
+          <h3>EDUCATION</h3>
+          <textarea name="education" placeholder="Education" >
+          </textarea>
+
+          <h3>AFFILIATIONS</h3>
+          <textarea name="affiliations" placeholder="Affiliations" >
+          </textarea>
+
+          <h3>CONTACT INFORMATION</h3>
+          <input type="text" name ="contact" placeholder="Contact No."/>
+          <input type="text" name ="email" placeholder="Email ID" />
+          <input type="text" name="location" placeholder="Address" />
+
+    </form>
+
+     
+    <div class="output">
+   
+    </div>  
+    
+   <div class="btn">
+    <button onclick="toggle()">Preview or Edit</button>
+   </div>
+
+   <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script> 
+    <script src="./script.js"></script>
+</body>
+</html>
